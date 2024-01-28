@@ -1,10 +1,13 @@
+import { Container } from "react-bootstrap";
 
 
 const TituloFormulario = () => {
     return (
-        <div>
-            <h1>Formulario Simple</h1>
-        </div>
+        <section>
+            <Container>
+            <h1 className="Titulo">Formulario Simple🤸‍♀️</h1>
+            </Container>
+        </section>
     );
 };
 
